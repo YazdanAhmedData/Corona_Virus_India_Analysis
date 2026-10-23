@@ -1,127 +1,63 @@
-# 🦠 COVID-19 India Analysis — Tableau Dashboard
+# COVID-19 India Analysis | Tableau Dashboard
 
-<img width="2870" height="1634" alt="image" src="https://github.com/user-attachments/assets/26069883-0592-4fdd-8749-eb78b21cd80d" />
+A data-visualization project exploring the progression of COVID-19 in India using case, testing, vaccination, demographic, and state-boundary datasets. Tableau is used to compare patterns across time and geography.
 
+## Objective
 
-A data visualization and business intelligence project focused on analyzing the impact and progression of COVID-19 across India using Tableau.
+Bring multiple public-health datasets into a visual analysis workflow to explore case trends, testing activity, vaccination progress, and state-level differences.
 
-The project combines COVID-19 case data, vaccination data, demographic information, testing data, and Indian state-level geographical information to create an analytical dashboard.
+## Questions Explored
 
-## 🎯 Project Objective
+- How did reported cases change over time?
+- How did testing and vaccination measures vary across states and periods?
+- What geographic patterns are visible in the available data?
+- How do demographic breakdowns add context to reported cases?
 
-The objective of this project is to analyze the spread and impact of COVID-19 in India and present important patterns through interactive Tableau visualizations.
+The project is descriptive. Differences in reporting practices, data completeness, population size, and time coverage can affect comparisons; visual correlation should not be interpreted as causation.
 
-The analysis focuses on:
+## Tools and Data
 
-- COVID-19 cases
-- Deaths
-- Recoveries
-- Vaccination
-- Testing
-- Age-group information
-- State-level analysis
-- Geographical patterns
+- **Tableau** — dashboarding and geographic visualization
+- CSV datasets covering cases, vaccinations, testing, and demographic details
+- Indian state-boundary shapefile components for map-based analysis
 
-## 📂 Datasets
+## Repository Contents
 
-The repository contains multiple datasets related to COVID-19 in India.
+| File | Purpose |
+|---|---|
+| `Corona Dashboard.twb` | Tableau workbook |
+| `Corona-dashboard_glimpse.pdf` | Dashboard preview |
+| `covid_19_india.csv` | COVID-19 case data |
+| `covid_vaccine_statewise.csv` | State-wise vaccination data |
+| `ICMRTestingLabs.csv` | Testing-related data |
+| `AgeGroupDetails.csv` | Age-group data |
+| `IndividualDetails.csv` | Individual-level records |
+| `India_State_Boundary.*` | Geographic boundary files |
 
-### Major datasets
+## Analysis Areas
 
-- `covid_19_india.csv`
-- `covid_vaccine_statewise.csv`
-- `AgeGroupDetails.csv`
-- `ICMRTestingLabs.csv`
-- `IndividualDetails.csv`
+- Case trends over time
+- State-level comparisons
+- Vaccination and testing activity
+- Demographic breakdowns
+- Geographic visualization
 
-The project also contains Indian state boundary files used for geographical analysis.
+## How to Explore
 
-## 📊 Tableau Dashboard
+1. Review each dataset's date range, granularity, and field definitions.
+2. Open `Corona Dashboard.twb` in Tableau Desktop.
+3. Use the PDF preview for a quick overview.
+4. Check joins, filters, and geographic mappings in the workbook before interpreting comparisons.
 
-The visualization was developed using **Tableau**.
+## Responsible Interpretation
 
-Main Tableau resources include:
+COVID-19 data can differ by reporting period, definition, and completeness. State comparisons should use clearly defined rates and appropriate population denominators where available. Findings should be presented as patterns in the available data, not as medical advice or causal conclusions.
 
-```text
-Corona Dashboard.twb
-Corona-dashboard_glimpse.pdf
-```
+## Skills Demonstrated
 
-## 🔍 Analysis Areas
+Tableau · Data visualization · Geographic analysis · Multi-source data exploration · Public-health reporting · Analytical communication
 
-### COVID-19 Cases
+## Author
 
-Analysis of the progression of COVID-19 cases across India.
-
-### State-Level Analysis
-
-Comparison of COVID-19 activity across Indian states and regions.
-
-### Vaccination Analysis
-
-Exploration of state-wise vaccination information and vaccination patterns.
-
-### Testing Analysis
-
-Analysis of testing infrastructure and available testing laboratory information.
-
-### Demographic Analysis
-
-Exploration of available age-group and individual-level COVID-19 information.
-
-### Geographical Visualization
-
-State-level geographical data is used to visualize the spread and distribution of COVID-19.
-
-## 🛠️ Tools & Technologies
-
-- Tableau
-- CSV
-- Data Visualization
-- Data Analysis
-- Geospatial Visualization
-- Business Intelligence
-
-## 📁 Project Structure
-
-```text
-Corona_Virus_India_Analysis/
-│
-├── AgeGroupDetails.csv
-├── Corona Dashboard.twb
-├── Corona-dashboard_glimpse.pdf
-├── ICMRTestingLabs.csv
-├── IndividualDetails.csv
-├── covid_19_india.csv
-├── covid_vaccine_statewise.csv
-│
-├── India State Boundary Files
-│
-└── README.md
-```
-
-## 🎓 Key Learning Outcomes
-
-This project helped strengthen my understanding of:
-
-- Tableau dashboard development
-- Geographical visualization
-- Working with multiple datasets
-- Data preparation
-- Time-series analysis
-- Public health data analysis
-- Interactive reporting
-
-## 💡 Business & Analytical Value
-
-Large-scale public datasets can contain valuable information that is difficult to understand in raw form.
-
-Interactive visualization makes it easier to identify trends, compare regions, and communicate complex information to a wider audience.
-
-## 👨‍💻 Author
-
-**Yazdan Ahmed**
-
-Data Analytics & Machine Learning Enthusiast
-
-GitHub: [YazdanAhmedData](https://github.com/YazdanAhmedData)
+**Yazdan Ahmed**  
+[GitHub Portfolio](https://github.com/YazdanAhmedData)
